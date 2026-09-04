@@ -1,7 +1,7 @@
 # Theseus for ARM64/AArch64 CPU
 Meta only provides pre-built Theseus wheels for x86 platforms. Therefore, Theseus must be built from source to run on ARM64/AArch64 platforms such as the NVIDIA GH200.
 
-For more details on Theseus, kindly refer to the original [README] (https://github.com/AILocAR/theseus_aarch64/blob/main/README_original.md) and its [official webpage] (https://sites.google.com/view/theseus-ai/).
+For more details on Theseus, kindly refer to the original [README](https://github.com/AILocAR/theseus_aarch64/blob/main/README_original.md) and its [official webpage](https://sites.google.com/view/theseus-ai/).
 
 ##  Build from Source for ARM64/AArch64
 The example provided here uses Python 3.10 and CUDA 13.0. The computational platform is NVIDIA GH200 Grace Hopper Superchip.
@@ -26,7 +26,7 @@ conda install -c conda-forge suitesparse
 ````
 
 ### Install scikit-sparse
-Refer to this [GitHub page] (https://github.com/AILocAR/scikit-sparse-aarch64)
+Refer to this [GitHub page](https://github.com/AILocAR/scikit-sparse-aarch64)
 
 ### Download source code and build it
 ````bash
