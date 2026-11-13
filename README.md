@@ -10,14 +10,14 @@ The example provided here uses Python 3.10 and CUDA 13.0. The computational plat
 conda create -p YOUR_ENVIRONMENT_PATH python=3.10
 ````
 
-### Install PyTorch
-````bash
-python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
-````
-
 ### Activate conda environment
 ````bash
 conda activate YOUR_ENVIRONMENT_PATH
+````
+
+### Install PyTorch
+````bash
+python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
 ````
 
 ### Install SuiteSparse
